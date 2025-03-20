@@ -5,8 +5,7 @@ import Image from "next/image";
 import { 
   FaDna, 
   FaSearch,
-  FaUserMd,
-  FaHospital
+  FaUserMd
 } from "react-icons/fa";
 import Link from "next/link";
 

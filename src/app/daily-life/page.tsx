@@ -4,13 +4,7 @@ import { motion } from "framer-motion";
 import { 
   FaHome,
   FaHeart,
-  FaHandHoldingHeart,
-  FaChild,
   FaCalendarAlt,
-  FaBed,
-  FaUtensils,
-  FaSmile,
-  FaUsers,
   FaGamepad
 } from "react-icons/fa";
 import Image from "next/image";

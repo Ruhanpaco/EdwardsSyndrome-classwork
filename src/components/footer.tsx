@@ -1,7 +1,5 @@
 "use client"
 
-import { FaGraduationCap, FaBook } from "react-icons/fa";
-
 export default function Footer() {
   return (
     <footer className="bg-[#f8f9fa] py-8 border-t border-gray-100">

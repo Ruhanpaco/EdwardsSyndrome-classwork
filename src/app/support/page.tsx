@@ -3,15 +3,9 @@
 import { motion } from "framer-motion";
 import { 
   FaHandHoldingHeart, 
-  FaHospital, 
   FaUserMd, 
-  FaUsers,
-  FaHandsHelping,
-  FaGlobe,
-  FaBookMedical,
-  FaDollarSign
+  FaBookMedical
 } from "react-icons/fa";
-import Image from "next/image";
 
 export default function Support() {
   return (
