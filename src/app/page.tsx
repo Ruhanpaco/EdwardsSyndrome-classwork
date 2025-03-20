@@ -3,14 +3,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { 
-  FaHeart, 
-  FaInfoCircle, 
-  FaHandHoldingHeart, 
   FaDna, 
-  FaUserMd, 
-  FaUsers,
   FaSearch,
-  FaBookMedical,
+  FaUserMd,
   FaHospital
 } from "react-icons/fa";
 import Link from "next/link";

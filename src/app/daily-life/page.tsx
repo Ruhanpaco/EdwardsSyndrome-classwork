@@ -41,7 +41,7 @@ export default function DailyLife() {
         >
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
             <p className="text-[#666666] text-lg leading-relaxed mb-6">
-              Living with Edwards Syndrome presents unique challenges that affect daily routines and activities. Each individual's experience is different, and families develop personalized approaches to manage daily life and ensure comfort and care.
+              Living with Edwards Syndrome presents unique challenges that affect daily routines and activities. Each individual&apos;s experience is different, and families develop personalized approaches to manage daily life and ensure comfort and care.
             </p>
             <p className="text-[#666666] text-lg leading-relaxed">
               Understanding these daily experiences helps create better support systems and improve quality of life for individuals with Edwards Syndrome.
@@ -288,7 +288,7 @@ export default function DailyLife() {
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
             <h2 className="text-3xl font-light text-[#1a1a1a] mb-6">Educational Project Notice</h2>
             <p className="text-[#666666] max-w-2xl mx-auto mb-4">
-              This information about daily life with Edwards Syndrome is part of an educational project. Each individual's experience is unique, and care approaches should be personalized under professional guidance.
+              This information about daily life with Edwards Syndrome is part of an educational project. Each individual&apos;s experience is unique, and care approaches should be personalized under professional guidance.
             </p>
             <p className="text-[#666666] max-w-2xl mx-auto">
               For specific advice about daily care and management, please consult with healthcare providers who can provide personalized recommendations.

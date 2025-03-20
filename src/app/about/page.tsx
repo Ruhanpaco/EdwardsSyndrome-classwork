@@ -6,10 +6,7 @@ import {
   FaHeartbeat, 
   FaBrain, 
   FaStethoscope, 
-  FaSearch, 
-  FaUserMd, 
   FaMicroscope,
-  FaChild,
   FaLungs,
   FaBone,
   FaEye
