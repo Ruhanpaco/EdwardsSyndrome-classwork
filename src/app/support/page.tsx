@@ -33,7 +33,7 @@ export default function Support() {
         >
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
             <p className="text-[#666666] text-lg leading-relaxed mb-6">
-              While there is no known cure for Edwards Syndrome, various treatments and therapies can help manage symptoms and improve quality of life. The type and intensity of treatment often depends on the specific form of trisomy (full, mosaic, or partial) and the individual's unique medical needs.
+              While there is no known cure for Edwards Syndrome, various treatments and therapies can help manage symptoms and improve quality of life. The type and intensity of treatment often depends on the specific form of trisomy (full, mosaic, or partial) and the individual&apos;s unique medical needs.
             </p>
             <p className="text-[#666666] text-lg leading-relaxed">
               Treatment approaches are highly individualized and focus on providing supportive care to address specific health challenges and enhance daily living.
