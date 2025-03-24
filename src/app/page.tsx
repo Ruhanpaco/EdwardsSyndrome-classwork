@@ -85,6 +85,16 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+              
+              <div className="bg-white p-6 rounded-xl mt-8">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Understanding Edwards Syndrome</h3>
+                <p className="text-[#666666] mb-4">
+                  Edwards Syndrome occurs when cell division fails during the formation of reproductive cells, resulting in an extra copy of chromosome 18 in a person's cells. While most cases happen randomly, the risk increases with maternal age.
+                </p>
+                <p className="text-[#666666]">
+                  Full Trisomy 18 affects every cell in the body, while Mosaic Trisomy 18 affects only some cells, potentially resulting in milder symptoms. In rare cases, Partial Trisomy 18 occurs when only a segment of chromosome 18 is duplicated, which may be inherited from a parent carrying a balanced translocation.
+                </p>
+              </div>
             </div>
           </div>
         </motion.section>

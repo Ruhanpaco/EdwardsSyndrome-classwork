@@ -38,6 +38,21 @@ export default function Support() {
             <p className="text-[#666666] text-lg leading-relaxed">
               Treatment approaches are highly individualized and focus on providing supportive care to address specific health challenges and enhance daily living.
             </p>
+            <div className="bg-white p-6 rounded-xl mt-8 border-t-4 border-[#4ECDC4]">
+              <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Treatment Decisions</h3>
+              <p className="text-[#666666] mb-4">
+                Medical management of Edwards Syndrome involves critical decisions about:
+              </p>
+              <ul className="space-y-2 text-[#666666]">
+                <li>• The extent of surgical interventions for congenital defects</li>
+                <li>• Balancing aggressive treatments with comfort-focused care</li>
+                <li>• Planning for both emergency situations and long-term support</li>
+                <li>• Coordinating care among multiple medical specialists</li>
+              </ul>
+              <p className="text-[#666666] mt-4">
+                These decisions are highly personal and made by families in consultation with healthcare providers, considering the individual child's specific medical condition and quality of life.
+              </p>
+            </div>
           </div>
         </motion.section>
 
@@ -184,6 +199,21 @@ export default function Support() {
                   <li>• Environmental adaptations</li>
                   <li>• Sleep positioning aids</li>
                 </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl mt-6">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Medical Decision Framework</h3>
+                <p className="text-[#666666] mb-4">
+                  The approach to care for individuals with Edwards Syndrome has evolved significantly. Today, many medical professionals support providing care that:
+                </p>
+                <ul className="space-y-2 text-[#666666]">
+                  <li>• Focuses on enhancing quality of life rather than just extending life</li>
+                  <li>• Considers each child's unique medical situation</li>
+                  <li>• Empowers families to make informed decisions</li>
+                  <li>• Balances interventions with minimizing suffering</li>
+                </ul>
+                <p className="text-[#666666] mt-4">
+                  Research shows that thoughtful medical interventions, combined with comprehensive supportive care, can significantly improve the daily experiences of children with Edwards Syndrome.
+                </p>
               </div>
             </div>
           </div>

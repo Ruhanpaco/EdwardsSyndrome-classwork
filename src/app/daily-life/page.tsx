@@ -40,6 +40,22 @@ export default function DailyLife() {
             <p className="text-[#666666] text-lg leading-relaxed">
               Understanding these daily experiences helps create better support systems and improve quality of life for individuals with Edwards Syndrome.
             </p>
+            <div className="bg-white p-6 rounded-xl mt-8 border-t-4 border-[#FF6B6B]">
+              <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Daily Life Realities</h3>
+              <p className="text-[#666666] mb-4">
+                The day-to-day experience of living with Edwards Syndrome involves:
+              </p>
+              <ul className="space-y-2 text-[#666666]">
+                <li>• Carefully structured routines to accommodate medical needs</li>
+                <li>• Regular medical appointments and therapies</li>
+                <li>• Adapting the home environment for comfort and accessibility</li>
+                <li>• Balancing medical care with quality of life experiences</li>
+                <li>• Finding moments of joy and connection amid challenges</li>
+              </ul>
+              <p className="text-[#666666] mt-4">
+                While the medical aspects are significant, many families emphasize the importance of creating meaningful experiences and moments of normalcy within these structured routines.
+              </p>
+            </div>
           </div>
         </motion.section>
 
@@ -158,6 +174,27 @@ export default function DailyLife() {
                     <li>• Gentle touch</li>
                     <li>• Consistent caregivers</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white p-6 rounded-xl mt-8">
+              <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Common Challenges & Solutions</h3>
+              <div className="space-y-6">
+                <div className="flex flex-col md:flex-row">
+                  <div className="font-medium text-[#FF6B6B] md:w-1/3">Feeding Difficulties</div>
+                  <div className="md:w-2/3 text-[#666666]">Special feeding techniques, modified textures, tube feeding when necessary, proper positioning during meals</div>
+                </div>
+                <div className="flex flex-col md:flex-row">
+                  <div className="font-medium text-[#4ECDC4] md:w-1/3">Respiratory Issues</div>
+                  <div className="md:w-2/3 text-[#666666]">Monitoring oxygen levels, suction equipment, positioning to optimize breathing, recognizing signs of respiratory distress</div>
+                </div>
+                <div className="flex flex-col md:flex-row">
+                  <div className="font-medium text-[#6C5CE7] md:w-1/3">Sleep Disturbances</div>
+                  <div className="md:w-2/3 text-[#666666]">Consistent bedtime routines, specialized sleep surfaces, monitoring during sleep, managing pain or discomfort</div>
+                </div>
+                <div className="flex flex-col md:flex-row">
+                  <div className="font-medium text-[#FF6B6B] md:w-1/3">Temperature Regulation</div>
+                  <div className="md:w-2/3 text-[#666666]">Layered clothing, monitoring room temperature, recognizing signs of overheating or being too cold</div>
                 </div>
               </div>
             </div>

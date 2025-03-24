@@ -116,6 +116,12 @@ export default function About() {
                 <li>The extra chromosome is usually of maternal origin</li>
                 <li>In rare cases of partial trisomy 18, the condition can be inherited from a parent carrying a balanced translocation</li>
               </ul>
+              <div className="bg-white p-6 rounded-xl mt-8">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Why Does This Happen?</h3>
+                <p className="text-[#666666]">
+                  During normal cell division (meiosis), chromosomes separate to form reproductive cells with the correct number of chromosomes. In Edwards Syndrome, nondisjunction occurs when chromosome 18 fails to separate properly. This results in a reproductive cell with an extra copy of chromosome 18, which is then passed to the developing embryo. This genetic mechanism is similar to other trisomy conditions but affects different chromosomes.
+                </p>
+              </div>
             </div>
           </div>
         </motion.section>
@@ -269,6 +275,22 @@ export default function About() {
                 <li>Individuals with mosaic or partial Trisomy 18 may have better outcomes, with some living into their teens or twenties</li>
                 <li>The severity of cardiac and respiratory issues significantly impacts survival</li>
               </ul>
+              <div className="bg-white p-6 rounded-xl mt-8">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Signs That May Lead to Diagnosis</h3>
+                <p className="text-[#666666] mb-4">
+                  During pregnancy, several ultrasound markers may raise suspicion of Edwards Syndrome, including:
+                </p>
+                <ul className="space-y-2 text-[#666666]">
+                  <li>• Intrauterine growth restriction</li>
+                  <li>• Polyhydramnios (excess amniotic fluid)</li>
+                  <li>• Abnormalities of the heart, brain, or other organs</li>
+                  <li>• Clenched fists visible on ultrasound</li>
+                  <li>• Single umbilical artery (instead of two)</li>
+                </ul>
+                <p className="text-[#666666] mt-4">
+                  After birth, the diagnosis is typically confirmed through a blood test that analyzes chromosomes (karyotype) to identify the extra chromosome 18.
+                </p>
+              </div>
             </div>
           </div>
         </motion.section>
