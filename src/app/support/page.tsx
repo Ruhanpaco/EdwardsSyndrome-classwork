@@ -189,6 +189,38 @@ export default function Support() {
           </div>
         </motion.section>
 
+        {/* Support Organizations Section - New */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.35 }}
+          className="mb-20"
+        >
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
+            <div className="flex items-center gap-4 mb-4">
+              <FaHandHoldingHeart className="text-[#FF6B6B] text-3xl" />
+              <h2 className="text-3xl font-light text-[#1a1a1a]">Support Organizations</h2>
+            </div>
+            <p className="text-[#666666] text-lg leading-relaxed mb-8">
+              Several organizations provide valuable resources and support for families affected by Edwards Syndrome:
+            </p>
+            <div className="space-y-6">
+              <div className="bg-[#f8f9fa] p-6 rounded-xl">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Key Resources</h3>
+                <ul className="space-y-3 text-[#666666]">
+                  <li>• <strong>Trisomy 18 Foundation (trisomy18.org)</strong> - Provides information, support, and advocacy for families</li>
+                  <li>• <strong>SOFT (Support Organization for Trisomy 13, 18 and Related Disorders)</strong> - Offers networking and information</li>
+                  <li>• <strong>The E.WE Foundation</strong> - Global healthcare advocacy for families affected by rare diseases</li>
+                  <li>• <strong>National Organization for Rare Disorders (NORD)</strong> - Resources for rare disease communities</li>
+                </ul>
+              </div>
+              <p className="text-[#666666] text-lg leading-relaxed">
+                These organizations offer peer connections, educational materials, and advocacy efforts to improve the lives of individuals with Edwards Syndrome and their families.
+              </p>
+            </div>
+          </div>
+        </motion.section>
+
         {/* Educational Note */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}

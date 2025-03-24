@@ -64,6 +64,9 @@ export default function Home() {
               <p>
                 Edwards syndrome (Trisomy 18) is a genetic condition caused by the presence of an extra copy of chromosome 18. First identified in 1960, it affects multiple systems of the body and requires specialized medical care and support.
               </p>
+              <p>
+                The prevalence varies globally, with estimates ranging from 1 in 3,600 to 1 in 10,000 live births. While approximately 1 in 2,500 pregnancies are affected, many result in miscarriage or stillbirth. The risk increases with maternal age, similar to other chromosomal disorders.
+              </p>
               <div className="grid md:grid-cols-2 gap-8 mt-8">
                 <div className="bg-white p-6 rounded-xl">
                   <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Types</h3>
@@ -96,7 +99,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/assets/trisomy-18-karyotype.jpg"
+                src="/assets/chromosomal-comparison.jpg"
                 alt="Karyotype showing three copies of chromosome 18"
                 fill
                 className="object-contain bg-white"
@@ -120,7 +123,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/assets/clinical-features.jpg"
+                src="/assets/clinical-features-detailed.jpg"
                 alt="Common clinical features of Edwards Syndrome"
                 fill
                 className="object-contain bg-white"

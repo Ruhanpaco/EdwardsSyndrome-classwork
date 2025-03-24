@@ -241,6 +241,37 @@ export default function About() {
           </div>
         </motion.section>
 
+        {/* Diagnosis and Prognosis Section - New */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="mb-20"
+        >
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
+            <div className="flex items-center gap-4 mb-6">
+              <FaStethoscope className="text-[#4ECDC4] text-3xl" />
+              <h2 className="text-3xl font-light text-[#1a1a1a]">Diagnosis and Prognosis</h2>
+            </div>
+            <div className="space-y-6 text-[#666666] text-lg leading-relaxed">
+              <p>
+                Edwards Syndrome can be diagnosed during pregnancy through screening and diagnostic tests. Initial screening may include maternal serum screening, non-invasive prenatal testing (NIPT), and ultrasound examinations that might reveal characteristic features.
+              </p>
+              <p>
+                Definitive prenatal diagnosis requires invasive procedures such as chorionic villus sampling (CVS) or amniocentesis, which can confirm the presence of the extra chromosome through karyotyping, FISH, or chromosomal microarray analysis.
+              </p>
+              <p>
+                The prognosis for babies with Edwards Syndrome varies based on several factors:
+              </p>
+              <ul className="space-y-4 list-disc pl-6">
+                <li>Approximately 50% of babies with full Trisomy 18 do not survive beyond the first week</li>
+                <li>About 5-10% of children with full Trisomy 18 survive beyond their first year</li>
+                <li>Individuals with mosaic or partial Trisomy 18 may have better outcomes, with some living into their teens or twenties</li>
+                <li>The severity of cardiac and respiratory issues significantly impacts survival</li>
+              </ul>
+            </div>
+          </div>
+        </motion.section>
 
       </main>
     </div>

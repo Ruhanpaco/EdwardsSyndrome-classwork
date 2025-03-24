@@ -186,7 +186,7 @@ export default function DailyLife() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden">
               <Image
-                src="/assets/genetic-testing.jpg"
+                src="/assets/organ-systems-affected.jpg"
                 alt="Genetic testing and monitoring"
                 fill
                 className="object-contain bg-white"
@@ -266,6 +266,44 @@ export default function DailyLife() {
                   <li>• Emergency response plans</li>
                   <li>• Safe positioning tools</li>
                   <li>• Medical equipment organization</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Family Resilience Section - New */}
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.45 }}
+          className="mb-20"
+        >
+          <div className="bg-[#f8f9fa] rounded-2xl p-8 md:p-12">
+            <div className="flex items-center gap-4 mb-4">
+              <FaHeart className="text-[#FF6B6B] text-3xl" />
+              <h2 className="text-3xl font-light text-[#1a1a1a]">Family Resilience</h2>
+            </div>
+            <p className="text-[#666666] text-lg leading-relaxed mb-8">
+              Families caring for individuals with Edwards Syndrome develop remarkable resilience and coping strategies:
+            </p>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Emotional Wellbeing</h3>
+                <ul className="space-y-3 text-[#666666]">
+                  <li>• Finding support through peer connections with other families</li>
+                  <li>• Accessing counseling and mental health resources</li>
+                  <li>• Celebrating small milestones and achievements</li>
+                  <li>• Developing day-by-day coping strategies</li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-xl font-light mb-4 text-[#1a1a1a]">Practical Support</h3>
+                <ul className="space-y-3 text-[#666666]">
+                  <li>• Building a network of family, friends, and community helpers</li>
+                  <li>• Working with care coordinators to manage medical appointments</li>
+                  <li>• Learning to navigate healthcare and insurance systems</li>
+                  <li>• Sharing knowledge and resources with other families</li>
                 </ul>
               </div>
             </div>
